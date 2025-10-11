@@ -1,10 +1,4 @@
-# Trabalho-MD
-# Trabalho avaliativo
-app.py
-streamlit
-git add 
-git commit -m "App Streamlit criado"
-git push
+
 import streamlit as st
 import pandas as pd
 import altair as alt
