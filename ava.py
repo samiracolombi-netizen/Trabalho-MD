@@ -2,7 +2,7 @@
 # Trabalho avaliativo
 app.py
 streamlit
-git add .
+git add 
 git commit -m "App Streamlit criado"
 git push
 import streamlit as st
