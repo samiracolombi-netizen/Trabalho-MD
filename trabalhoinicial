@@ -1,0 +1,56 @@
+import streamlit as st
+st.title("Meu App com Colunas")
+st.write("Aqui começa meu app.")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.header("Coluna 1")
+    st.write("Texto da coluna 1")
+
+with col2:
+    st.header("Coluna 2")
+    st.button("Botão na coluna 2")
+
+with col3:
+    st.header("Coluna 3")
+    st.image("https://placekitten.com/150/150")
+
+import streamlit as st
+
+# Título do app com seu nome
+st.title("App de Língua Portuguesa - por Samira Colombi")
+
+st.write("Bem-vindo! Explore os conteúdos nas colunas abaixo.")
+
+# Criação das 4 colunas
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.subheader("Ortografia")
+    st.write("Aprenda a diferença entre **mas** e **mais**.")
+    st.write("Ex: Eu queria ir, **mas** estava chovendo.")
+
+with col2:
+    st.subheader("Pontuação")
+    st.write("Veja a importância da vírgula:")
+    st.write("**Vamos comer, crianças!** vs **Vamos comer crianças!**")
+
+with col3:
+    st.subheader("Figuras de Linguagem")
+    st.write("- Metáfora 🧠")
+    st.write("- Hipérbole 🔥")
+    st.write("- Ironia 😏")
+
+with col4:
+    st.subheader("Gramática")
+    st.write("Sujeito, verbo e predicado.")
+    st.write("Ex: **O gato** (sujeito) **miou** (verbo).")
+
+# Rodapé com assinatura
+st.markdown("---")
+st.markdown("*Aplicativo desenvolvido por Samira Colombi - 2025*")
+
+
+    
+
